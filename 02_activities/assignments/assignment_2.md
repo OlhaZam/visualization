@@ -10,24 +10,45 @@
 - For each visualization (good and bad):  
     - Explain (with reference to material covered up to date, along with readings and other scholarly sources, as needed) why you classified that visualization the way you did.
       ```
-      Your answer...
+
+        Good:
+        https://public.tableau.com/app/profile/ellen4268/viz/heart_17176865031980/2
+
+        Aesthetic: 
+        The chart is visually pleasant with a harmonious color scheme and clean and unique design (pie chart as a heart), attracting the eye and making the data presentation engaging. 
+
+        Substantive:
+        The chart provides clear, accurate, and relevant data, making it easy for viewers to understand the information being presented. Each plot is clearly labeled, and the axes are well-defined, ensuring that the viewer can interpret the data correctly and efficiently.
+
+        Perceptual:
+        The bar chart is easy to read and understand, with each element clearly distinguished and labeled, minimizing any potential confusion. The straightforward design and familiar format of the heart chart and a bar chart make it intuitive, allowing viewers to quickly grasp the key insights without additional explanation.
 
 
+        Bad:
+        https://public.tableau.com/app/profile/rush1056/viz/Electricitygenerationpercapita2022/ElectricityGenerationpercapita2022
 
+        Aesthetic:
+        The visual design of this plot is clean and minimal. The tree plot is visually pleasant, with a nice color scheme, well-designed layout, and smooth, clean lines. The design is likely to attract viewers and make the plot engaging at first glance.
 
+        Substantive:
+        The data in the plot is grouped by continents, but the question is what each line in a group represents? Additionally, the plot has a lack of labels and units in the legend. Without these, the plot fails to convey critical information necessary for understanding the data it represents. 
 
-
+        Perceptual:
+        It's hard to understand the message of this plot. Without proper labels and a detailed legend, viewers cannot easily interpret the relationships or values represented by the different sections of the tree plot.
 
       ```
     - How could this data visualization have been improved?  
       ```
-      Your answer...
+
+      Good:
+      - Include a static legend with brief descriptions of each generation group directly on the chart: This ensures all users can access this information without the need to hover. The description of generation groups is only visible when hovering, which might not be accessible to all users.
+      -  Increase the contrast of the labels: The low contrast between the background color and label color may fail accessibility tests, making it hard for some users to read. Enhancing the contrast by using darker, more distinct colors for the labels or a lighter background will impove this situation.
 
 
-
-
-
-
+      Bad:
+      - Add Labels: Ensure each section of the tree plot has clear labels that indicate what it represents.
+      - Include Units in the Legend: The legend should contain units of measurement or a scale that explains the values depicted in the plot.
+      - Enhance Clarity: Adding tooltips information can also help provide additional details without cluttering the plot.
       
       ```
 - Word count should not exceed (as a maximum) 500 words for each visualization (i.e. 
