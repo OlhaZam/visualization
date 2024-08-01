@@ -7,14 +7,113 @@
 - For each visualization: 
     - Explain (with reference to material covered up to date, along with readings and other scholarly sources, as needed) whether or not you think this data visualization is accessible, reproducible, and equitable. 
         ```
-        Your answer...
+        
+        Visualization 1 (Good)
+        https://public.tableau.com/app/profile/ellen4268/viz/heart_17176865031980/2
 
+        Accessibility:
+
+        - Color
+
+        Contrast Ratio Test(https://accessibleweb.com/color-contrast-checker/): 
+        Text (#B99595) on Background (#FCF2F3 & #F7E7E9) - 2.45:1 - 2.25:1. Test Result: Fail. 
+        Text with this contrast ratio would not be considered accessible according to WCAG standards. This lower contrast may make it difficult for some users to read the text, particularly those with visual impairments. To improve accessibility, it's important to increase the contrast ratio to meet or exceed the WCAG guidelines.
+
+        Visual Elements on Background (#FCF2F3):
+        Yellow (#EADF42) - Contrast Ratio: 1.16:1, Test result: Fail.
+        Red (#D82E22) - Contrast Ratio: 4.05:1, Test result: Pass.
+        Green (#66B13D) - Contrast Ratio: 2.22:1, Test result: Fail.
+        Purple (#423BC0) - Contrast Ratio: 6.71:1, Test result: Pass.
+
+        The yellow and green  elements fail the accessibility test due to insufficient contrast ratios. These colors are not suitable for text or visual elements if accessibility is a priority. The red and purple elements pass the accessibility test, and these colors provide sufficient contrast and are accessible for most users.
+
+
+        - Text
+
+        Typeface Family: Sans-Serif, accessible.
+        Font Size and Spacing: 12 px for labels and chart description. While 12 px is generally readable, it’s important to note that some users, particularly those with visual impairments, might find this size too small. Thus, ensuring proper contrast and providing options to increase text size can enhance accessibility.
+
+
+        - Image Description
+
+        Alt text is missing. 
+
+
+        Reproducibility:
+
+        The provided data visualization includes the data source but lacks details about the raw data, methods, and tools used in its creation. As a result, this data visualization is not reproducible.
+
+
+        Equitability:
+
+        The chart demonstrates strong equitability by effectively combining aesthetic appeal with clarity and perceptibility. Its harmonious color scheme and intuitive heart-shaped pie chart design ensure visual engagement while remaining inclusive. The clear labels and well-defined axes facilitate accurate data interpretation for all viewers, making the information easy to understand without additional context. 
+
+
+
+        Visualization 2 (Bad)
+        https://public.tableau.com/app/profile/rush1056/viz/Electricitygenerationpercapita2022/ElectricityGenerationpercapita2022
+
+        Accessibility:
+
+        - Color
+
+        Contrast Ratio Test(https://accessibleweb.com/color-contrast-checker/): 
+        Text (#000000) on Background (#FCFCFC) - 20.47:1. Test Result: Pass. 
+        An exceptionally high level of contrast between text and background.
+
+        Visual Elements on Background (#FCFCFC):
+        Grey (#898989) - Contrast Ratio: 3.41:1, Test result: Pass/Fail.
+        Light-grey (#D8D8D8) - Contrast Ratio: 1.39:1, Test results: Fail.
+        Orange (#E4754E) - Contrast Ratio: 2.94:1, Test results: Fail.
+
+        A contrast ratios for visual elements indicates insufficient contrast, potentially making these elements difficult to distinguish, especially for users with visual impairments.
+
+
+        - Text
+
+        Typeface Family: Serif and Sans-Serif. On screens, serif fonts can be less readable if the rendering is poor or if the font size is small.
+
+        Font Size and Spacing: 12 px. While 12 px is generally readable, it’s important to note that some users, particularly those with visual impairments, might find this size too small. Thus, ensuring proper contrast and providing options to increase text size can enhance accessibility.
+
+
+        - Image Description
+
+        Alt text is missing. 
+
+
+        Reproducibility:
+
+        The provided data visualization includes the data source but lacks details about the raw data, methods, and tools used in its creation. As a result, this data visualization is not reproducible.
+
+
+        Equitability:
+
+        The data visualization excels in aesthetic design, with a clean and engaging appearance that attracts viewers. However, it falls short in equitability due to significant issues with substantive and perceptual elements. The plot lacks essential labels and units, making it difficult for viewers to interpret and understand the data.
 
 
         ```
     - How could this data visualization have been improved (in terms of accessibility, reproducibility, equity)?  
         ```
-        Your answer...
+        Visualization 1 Suggestions for Improvements:
+        
+        1. Accessible colors. Ensure that any color choices for text and important visual elements meet the WCAG minimum contrast ratios: At least 4.5:1 for normal text and 3:1 for large text. Increase the contrast by choosing a darker shade of text color and specific visual ellements (yellow and green) or switching to a different color that has a higher contrast ratio against the background.
+
+        2. Text size. For critical information like labels and chart description, consider using a slightly larger font size (e.g., 16 px and more) to enhance visibility.
+
+        3. Alt text. Providing alternative text (alt text) for images, including charts, is crucial for web accessibility. Alt text helps users who rely on screen readers understand the content and purpose of images. 
+
+        4. Reproducibility. Providing access to the raw dataset, documenting data processing methods, sharing the analysis code and tools used, and specifying the computing environment. 
+
+
+        Visualization 2 Suggestions for Improvements:
+        
+        1. Accessible colors. To improve accessibility and usability some of the graphic elements, increase the contrast ratio to at least 4.5:1 to ensure they are easily identifiable and inclusive for all users.
+
+        2. Text size. For critical information like labels and chart description, consider using a slightly larger font size (e.g., 16 px and more) to enhance visibility.
+
+        3. Alt text. Providing alternative text (alt text) for images, including charts, is crucial for web accessibility. Alt text helps users who rely on screen readers understand the content and purpose of images. 
+
+        4. Equitability. To improve equitability, it is crucial to add comprehensive labels, a detailed legend, and clear explanations of what each line or section represents. This will ensure that all users, regardless of their background or level of expertise, can accurately interpret and engage with the data.
 
 
 
