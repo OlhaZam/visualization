@@ -91,7 +91,7 @@ Tableau Public Dashboard:
 [https://public.tableau.com/views/WebAnalyticsfortheCityofTorontowebsitetoronto_ca_/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link](https://public.tableau.com/views/WebAnalyticsfortheCityofTorontowebsitetoronto_ca_/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
 Data Visualization: 
-[tableau-data-vis.png](tableau-data-vis.png)
+[assignment_4_materials/tableau-data-vis.png](assignment_4_materials/tableau-data-vis.png)
 
 ### Description:
     > Software: Tableau Public.
