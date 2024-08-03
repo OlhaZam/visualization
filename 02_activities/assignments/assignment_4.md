@@ -24,8 +24,49 @@
     > How did you choose which features of your chosen dataset to include or exclude from your visualization? 
     
     > What ‘underwater labour’ contributed to your final data visualization product?
+    
+-----------------------------------------------------------------------------------------------------------------------------
+
+## Data Visualization with Python
 
 ![plot](assignment_4_materials/python-data-vis.png)
+
+Resources: 
+Dataset: - Web analytics of the City of Toronto website toronto.ca.
+[https://open.toronto.ca/dataset/web-analytics/](https://open.toronto.ca/dataset/web-analytics/)
+
+Data:
+assignment_4_materials/data/key_metrics_202407.csv
+
+Code:
+assignment_4_materials/assignment_4_code.ipynb
+
+### Description:
+    > Software: Python, numpy, matplotlib, pandas, seaborn.
+
+    > Intended audience: 
+    
+    > Message of the visualization:
+    
+    > What design principles (substantive, perceptual, aesthetic) consideration:
+    
+    > Reproducibility:
+    
+    > Accessibility:
+    
+    > Individuals and communities impacts:  
+    
+    > Features desicions:
+    
+    > What ‘underwater labour’ contributed to your final data visualization product?
+
+---------
+
+## Data Visualization with Tableau
+
+![plot](assignment_4_materials/tableau-data-vis.png)
+
+-----------------------------------------------------------------------------------------------------------------------------
 
 - This assignment is intentionally open-ended - you are free to create static or dynamic data visualizations, maps, or whatever form of data visualization you think best communicates your information to your audience of choice! 
 - Total word count should not exceed **(as a maximum) 1000 words** 
