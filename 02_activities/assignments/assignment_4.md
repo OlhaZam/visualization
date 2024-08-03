@@ -31,40 +31,87 @@
 
 ![plot](assignment_4_materials/python-data-vis.png)
 
-Resources: 
+#### Resources: 
+
 Dataset: - Web analytics of the City of Toronto website toronto.ca.
 [https://open.toronto.ca/dataset/web-analytics/](https://open.toronto.ca/dataset/web-analytics/)
 
 Data:
-assignment_4_materials/data/key_metrics_202407.csv
+[assignment_4_materials/data/key_metrics_202407.csv](assignment_4_materials/data/key_metrics_202407.csv)
 
 Code:
-assignment_4_materials/assignment_4_code.ipynb
+[assignment_4_materials/assignment_4_code.ipynb](assignment_4_materials/assignment_4_code.ipynb)
+
+Data Visualization: 
+[assignment_4_materials/python-data-vis.png](assignment_4_materials/python-data-vis.png)
 
 ### Description:
-    > Software: Python, numpy, matplotlib, pandas, seaborn.
+    > Software: Python, Numpy, Matplotlib, Pandas, Seaborn.
 
-    > Intended audience: 
+    > Intended audience: The intended audience for this data visualization includes web analytics professionals, digital marketers, city planners, and stakeholders involved in the management and improvement of the City of Toronto’s website, toronto.ca.
     
-    > Message of the visualization:
+    > Message of the visualization: The visualizations aim to provide insights into user behavior and website performance metrics for the City of Toronto's website throughout July 2024. Specifically, the line plot shows the average screen views per session by day of the month, while the heatmap displays the correlation between various web metrics. These visualizations help identify trends, patterns, and relationships in the data, which can guide decision-making and strategy development.
     
-    > What design principles (substantive, perceptual, aesthetic) consideration:
+    > Design principles consideration:
+        Substantive Principles:
+        Relevance: Only included relevant metrics such as Users, Sessions, Views, Bounce Rate, Avg Session Duration, Screen Views per Session, and Sessions (New) to focus on key performance indicators.
+        Accuracy: Ensured data integrity by excluding the first row, which contained unclear data.
+        Perceptual Principles:
+        Clarity: Used clear labels and titles to ensure the audience can easily understand the data presented.
+        Readability: Chose appropriate font sizes and styles for text elements, ensuring they are legible.
+        Aesthetic Principles:
+        Consistency: Maintained a consistent color scheme and formatting style across the plots to create a cohesive visual experience.
+        Simplicity: Simplified the visual elements by removing unnecessary gridlines and reducing chart clutter (e.g., hiding top and right spines).
+        
+    > Reproducibility: I provided complete Python code and saved the processed data to a new CSV file, ensuring the results can be verified and shared.
     
-    > Reproducibility:
+    > Accessibility: I added descriptions, used accessible color schemes, ensured legibility, and provided alternative text.
     
-    > Accessibility:
+    > Individuals and communities impacts:  City officials, residents, visitors, and web analytics professionals can benefit from the insights provided.
     
-    > Individuals and communities impacts:  
+    > Features desicions: Only included relevant web performance metrics and excluded the first row due to unclear data.
     
-    > Features desicions:
-    
-    > What ‘underwater labour’ contributed to your final data visualization product?
+    > ‘Underwater labour’: Efforts included data cleaning, code development, design and formatting, and documentation to ensure accuracy and clarity.
 
 ---------
 
 ## Data Visualization with Tableau
 
 ![plot](assignment_4_materials/tableau-data-vis.png)
+
+#### Resources: 
+
+Dataset: - Web analytics of the City of Toronto website toronto.ca.
+[https://open.toronto.ca/dataset/web-analytics/](https://open.toronto.ca/dataset/web-analytics/)
+
+Data:
+[assignment_4_materials/data/key_metrics_202407.csv](assignment_4_materials/data/key_metrics_202407.csv)
+
+Tableau Public Dashboard:
+[https://public.tableau.com/views/WebAnalyticsfortheCityofTorontowebsitetoronto_ca_/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link](https://public.tableau.com/views/WebAnalyticsfortheCityofTorontowebsitetoronto_ca_/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+
+Data Visualization: 
+[tableau-data-vis.png](tableau-data-vis.png)
+
+### Description:
+    > Software: Tableau Public.
+
+    > Intended audience: The intended audience for this data visualization includes web analytics professionals, digital marketers, city planners, and stakeholders involved in the management and improvement of the City of Toronto’s website, toronto.ca.
+    
+    > Message of the visualization: The visualizations aim to provide insights into user behavior and website performance metrics for the City of Toronto’s website throughout July 2024.
+    
+    > Design principles consideration: I considered relevance by focusing on key metrics, clarity by using clear labels and titles, and consistency by maintaining a cohesive color scheme and clean layout across the plots.
+        
+    > Reproducibility: To make the Tableau dashboard reproducible, I ensured that the dataset is saved and shared along with the Tableau workbook. However, since Tableau does not support version control and may require manual adjustments, full reproducibility might be challenging. This can impact the ability to exactly replicate the visualizations if the data source or original settings are not accessible.
+    
+    > Accessibility: I added detailed descriptions for each plot, used color schemes accessible to those with color vision deficiencies, ensured legibility through appropriate font sizes and styles, and included alternative text.
+    
+    > Individuals and communities impacts:  City officials, residents, visitors, and web analytics professionals can benefit from the insights provided.
+    
+    > Features desicions: Only included relevant web performance metrics and excluded the first row due to unclear data.
+    
+    > ‘Underwater labour’: The process involved data cleaning, configuring Tableau settings, designing the dashboard layout, and documenting insights to ensure clarity, accuracy, and accessibility.
+
 
 -----------------------------------------------------------------------------------------------------------------------------
 
