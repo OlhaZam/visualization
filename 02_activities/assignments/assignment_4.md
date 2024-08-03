@@ -25,6 +25,8 @@
     
     > What ‘underwater labour’ contributed to your final data visualization product?
 
+![plot](assignment_4_materials/python-data-vis.png)
+
 - This assignment is intentionally open-ended - you are free to create static or dynamic data visualizations, maps, or whatever form of data visualization you think best communicates your information to your audience of choice! 
 - Total word count should not exceed **(as a maximum) 1000 words** 
  
